@@ -1,0 +1,21 @@
+package newww;
+class Student {
+    private String name;
+    public void setName(String name){
+        this.name = name;
+    }
+    public String getName(){
+        return name;
+    }
+}
+public class Newww {
+
+    
+    public static void main(String[] args) {
+        Student s = new Student();
+        s.setName(" Selva Rahul");
+        System.out.println(s.getName());
+       
+    }
+    
+}
